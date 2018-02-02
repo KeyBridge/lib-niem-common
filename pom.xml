@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>keybridge.lib</groupId>
+  <artifactId>lib-niem-release</artifactId>
+  <version>4.0.0</version>
+  <packaging>jar</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <name>niem-release</name>
+  <description>NIEM 4.0 in Java
+
+    The National Information Exchange Model (NIEM) is a community-driven, common
+    vocabulary that enables efficient information exchange across diverse public
+    and private organizations. NIEM can save time and money by providing consistent,
+    reusable data terms and definitions and repeatable processes.
+
+    NIEM is distributed as a set of XML stylesheets (XSD) files.
+
+    Versioning
+
+    This is a compilation of the complete NIEM 4.0 release. The major and minor
+    version of this library will always be "4.0". The patch version will be incremented
+    as appropriate.
+
+    History
+
+    v4.0.0 - compile 02/01/18
+
+  </description>
+</project>
