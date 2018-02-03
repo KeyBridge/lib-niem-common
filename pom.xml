@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>keybridge.lib</groupId>
-  <artifactId>lib-niem</artifactId>
+  <artifactId>lib-niem-common</artifactId>
   <version>4.0.0</version>
   <packaging>jar</packaging>
 
-  <name>niem</name>
-  <description>NIEM 4.0 in Java
+  <name>niem-common</name>
+  <description>NIEM 4.0 (common) components in Java
 
     The National Information Exchange Model (NIEM) is a community-driven, common
     vocabulary that enables efficient information exchange across diverse public
@@ -17,15 +17,19 @@
 
     NIEM is distributed as a set of XML stylesheets (XSD) files.
 
+    Contents
+
+    This is a compilation of the absolutely minimum NIEM 4.0 release, containing
+    ONLY the abstract metadata classes and absolutely NO implementation instances.
+
     Versioning
 
-    This is a compilation of the complete NIEM 4.0 release. The major and minor
-    version of this library will always be "4.0". The patch version will be incremented
-    as appropriate.
+    The major and minor version of this library will always be "4.0".
+    The patch version will be incremented as appropriate.
 
     History
 
-    v4.0.0 - compile 02/01/18
+    v4.0.0 - compile 02/03/18; reduced to bare essentials
 
   </description>
 
