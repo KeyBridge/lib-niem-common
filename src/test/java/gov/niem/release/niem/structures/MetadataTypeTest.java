@@ -18,7 +18,6 @@
  */
 package gov.niem.release.niem.structures;
 
-import ch.keybridge.lib.xml.JaxbUtility;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -53,14 +52,14 @@ public class MetadataTypeTest {
     person.withOtherAttribute(new QName("eyes"), "bleu");
     QName q = new QName("http://food.namespace.uri", "lunch", "fo");
     person.withOtherAttribute(q, "sandwich");
-    System.out.println(JaxbUtility.marshal(person));
+//    System.out.println(JaxbUtility.marshal(person));
 
     /**
      * Check out the IDREF
      */
     Person ofInterest = new Person();
     ofInterest.setRef(person);
-    System.out.println(JaxbUtility.marshal(ofInterest));
+//    System.out.println(JaxbUtility.marshal(ofInterest));
 
   }
 
